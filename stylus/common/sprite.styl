@@ -1,0 +1,25 @@
+$add-d = -5px -5px 26px 27px
+$add-l = -5px -42px 26px 27px
+$reduce-d = -5px -79px 26px 27px
+$reduce-l = -5px -116px 26px 27px
+
+sprite-width($sprite)
+  width $sprite[2]
+
+sprite-height($sprite)
+  height $sprite[3]
+
+sprite-position($sprite)
+  background-position $sprite[0]  $sprite[1]
+
+sprite($sprite)
+  sprite-position($sprite)
+  background-repeat no-repeat
+  overflow hidden
+  display inline-block
+  sprite-width($sprite)
+  sprite-height($sprite)
+
+.icon
+  background-image url('i/sprite.png')
+

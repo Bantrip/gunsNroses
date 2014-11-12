@@ -1,0 +1,31 @@
+{
+  "name": "bantrip",
+  "version": "0.1.0",
+  "description": "The coolest cortex module.",
+  "main": "index.js",
+  "devDependencies": {
+    "assert": "*"
+  },
+  "dependencies": {
+    "jquery": "^1.9.1"
+  },
+  "repository": "git://github.com/oliviaong/bantrip.git",
+  "keywords": [
+    "bantrip"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "rao yu",
+    "email": "411295325@qq.com"
+  },
+  "bugs": {
+    "url": "http://github.com/oliviaong/bantrip/issues"
+  },
+  "entries": [
+    "./js/*.js"
+  ],
+  "homepage": "http://github.com/oliviaong/bantrip",
+  "scripts": {
+    "prebuild": "gulp"
+  }
+}

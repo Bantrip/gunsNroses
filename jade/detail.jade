@@ -1,0 +1,122 @@
+doctype html
+html(lang='en')
+    head
+        meta(charset='UTF-8')
+        title= '详情页'
+        link(rel='stylesheet', href='../css/detail.css')
+        script(src='http://zeptojs.com/zepto.js')
+    body
+        include ./head.jade
+        div(class='container mod info-main Fix')
+            div.lf
+                h4(class='tit') 旅行透明全密封手机防水套五彩系列，不影响手机操作可游泳潜水 
+                div(class='img-box')
+                    div(class='big')
+                        span(class='arrow prev')
+                        span(class='arrow next')
+                        ul(class='cont')
+                            li
+                                img(src='../images/detail/1.jpg')
+                    div(class='small')
+                        ul(class='Fix')
+                            li(class='on')
+                                img(src='../images/detail/1.jpg')
+            div(class='rt')
+                div
+                    p(class='price') ￥21
+                    p(class='num')
+                        label 数量
+                        span(class='icon reduce J_amount-reduce disable') -
+                        input(type='text', value='1', class="J_amount-input")
+                        span(class='icon add J_amount-add') +
+                    p(class='ope')
+                        button(type='button', class='btn')
+                            span(class='icon-cart')
+                            加入购物车
+                dl(class='reason')
+                    dt 推荐理由
+                    dd
+                        p 体验水下拍照的无限乐趣
+                        p 手机保护，玩水无忧
+                        p 多彩时尚，方便携带
+                ul(class='interact Fix')
+                    li(class='like')
+                        a(href="")
+                            span(class='icon icon-like')
+                            喜欢 28888
+                    li
+                        a(href="")
+                            span(class='icon icon-edit')
+                            写评论
+                    li
+                        a(href="")
+                            span(class='icon icon-share')
+                            分享
+                            span(class='icon icon-arrow')
+        div(class='container mod info-detail Fix')
+            div(class='lf')
+                div(class='block detail')
+                    h4(class='tit')
+                        span(class='icon icon-bag')
+                        商品详情
+                    div(class='con')
+                        //p(class='para')
+                        //    Weloop的含义是坚持不懈的实现科技梦想，我们坚信科技和智能将改变所有人的生活。为此，Weloop集合了最优秀的技术团队，专注于用户的深层需求及体验，与用户一起完成产品，并不断优化、创新、打造最优质的智能穿戴产品。
+                        div(class='img')
+                            img(src='../images/detail/2.jpg')
+                            img(src='../images/detail/3.jpg')
+                            img(src='../images/detail/4.jpg')
+                            img(src='../images/detail/5.jpg')
+                            img(src='../images/detail/6.jpg')
+                            img(src='../images/detail/7.jpg')
+                            img(src='../images/detail/8.jpg')
+                            img(src='../images/detail/9.jpg')
+                            img(src='../images/detail/10.jpg')
+                div(class='block comment')
+                    h4(class='tit')
+                        span(class='icon icon-comment')
+                        评论 8888条
+                    div(class='con')
+                        div(class='ope')
+                            div
+                                textarea(placeholder='评论请先登录，限500字', rows='3', cols='90')
+                                p(class='btn-s')
+                                    a(href='', class='login') 登陆
+                                    button(type='btn', class='btn') 发布
+                        div(class='list')
+                            ul
+                                li
+                                    div(class='user')
+                                        img(src='http://tp4.sinaimg.cn/1969110243/180/5695186658/0', class='img')
+                                        p(class='name') 鸟语
+                                    p(class='info')
+                                        东西拿到手以后试了下水，果然密封，不过这个材质感觉应该可以提高。买这个东西是因为要去玩水，但还是希望不要把手机掉到水里
+                                    p(class='other') 1分钟前
+                                        span(class='zan')有用
+                                        span 9999
+            div(class='rt')
+                div(class='block location')
+                    h4(class='tit')
+                        span(class='icon icon-location')
+                        适用目的地
+                    div(class='con')
+                        ul(class='list')
+                            li(class='on') · 泰国 Thailand
+                            li · 台北 Taipei
+                            li · 香港 Hongkong
+                        p(class='back')
+                            a(href='') 返回目的地商品列表页>>
+        script(src='../neurons/neuron.js')
+        script(src='../neurons/config.js')
+        script.
+            neuron.config({
+                path: '../neurons'
+            })
+        script.
+            facade({
+                entry: 'bantrip/js/detail.js',
+                data: {
+                    pageType: 'app',
+                    token: ''
+                }
+            })

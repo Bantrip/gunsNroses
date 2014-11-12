@@ -1,0 +1,265 @@
+@import 'component/reset.styl'
+@import 'component/util.styl'
+
+@import 'common/base.styl'
+@import 'common/sprite.styl'
+
+@import 'header.styl'
+
+body
+    background #f0f0f0
+.mod
+    margin-top 20px
+    background #fff
+.info-main
+    padding-bottom 40px
+    .lf
+        float left
+        width 700px
+        padding-left 30px
+        .tit
+            padding 24px 0
+            font-size 16px
+            text-align center
+        .img-box
+            padding-right 30px
+            border-right 1px solid #f0f0f0
+            .big
+                position relative
+                .arrow
+                    position absolute
+                .cont
+                    li
+                        height 420px
+                        overflow hidden
+                        img
+                            width 670px
+                            margin-top -100px
+            .small
+                margin-top 17px
+                li
+                    float left
+                    height 70px
+                    margin-right 13px
+                    border 1px solid #f0f0f0
+                    img
+                        width 70px
+                        height 70px
+                    &.on
+                        margin-top -1px
+                        border 2px solid #e95469
+    .rt
+        float left
+        width 320px
+        padding 72px 30px 0 30px
+        .price
+            color #e95469
+            font-size 20px
+        .num
+            margin-top 55px
+            label
+                margin-right 18px
+                color #8d8d8d
+            .icon
+                display inline-block
+                width 26px
+                overflow hidden
+                background-color #f0f0f0
+                color #8d8d8d
+                line-height 27px
+                text-indent -999em
+                vertical-align middle
+                cursor pointer
+            .reduce
+                sprite($reduce-d)
+                &.disable
+                    sprite($reduce-l)
+                    cursor default
+            .add
+                sprite($add-d)
+                &.disable
+                    sprite($add-l)
+                    cursor default
+            input
+                display inline-block
+                width 42px
+                padding 2px 0
+                border 1px solid #f0f0f0
+                text-align center
+                vertical-align middle
+        .ope
+            margin-top 23px
+            .btn
+                width 170px
+                height 40px
+                border none
+                border-radius 4px
+                background #e95469
+                color #fff
+                font-size 14px
+                cursor pointer
+                .icon-cart
+                    display inline-block
+                    width 27px
+                    height 21px
+                    margin-right 10px
+                    bgImg(-61px, 0)
+                    vertical-align top
+        .reason
+            margin-top 100px
+            dt
+                padding-bottom 10px
+                border-bottom 1px solid #f0f0f0
+                font-size 14px
+            dd
+                height 120px
+                overflow hidden
+                margin-top 10px
+                color #8d8d8d
+                font-size 13px
+                line-height 24px
+        .interact
+            margin-top 40px
+            font-size 12px
+            a
+                float left
+                width 100px
+                text-align center
+                line-height 24px
+                &:hover
+                    color #e95469
+            .icon
+                display inline-block
+                margin-right 12px
+                vertical-align middle
+            .icon-like
+                width 24px
+                height 21px
+                bgImg(-93px, 0)
+            .icon-edit
+                width 14px
+                height 18px
+                bgImg(-123px, 0)
+            .icon-share
+                width 18px
+                height 20px
+                bgImg(-140px, 0)
+            .icon-arrow
+                width 12px
+                height 10px
+                margin-left 12px
+                bgImg(-163px, 0)
+            .like
+                width 110px
+                border-right 1px solid #f0f0f0
+                text-align left
+            .liked
+                .icon-like
+                    background red
+.info-detail
+    .block
+        margin-top 30px
+        .tit
+            padding-bottom 17px
+            border-bottom 1px solid #f0f0f0
+            .icon
+                display inline-block
+                margin-right 10px
+                vertical-align top
+            .icon-bag
+                width 24px
+                height 19px
+                bgImg(-180px, 0)
+            .icon-comment
+                width 22px
+                height 20px
+                bgImg(-209px, 0)
+            .icon-location
+                width 20px
+                height 25px
+                bgImg(-236px, 0)
+    .lf
+        float left
+        width 760px
+        padding 0 30px
+        .block
+            .con
+                margin-top 14px
+                font-size 13px
+                line-height 24px
+        .detail
+            .para
+                text-indent 2em
+            .img
+                margin-top 20px
+                text-align center
+        .comment
+            .ope
+                textarea
+                    display block
+                    margin-top 6px
+                    padding 5px 10px
+                    border-radius 4px
+                    border 1px solid #bebebe
+                    background #f7f7f7
+                .btn-s
+                    margin-top 10px
+                    text-align right
+                    .btn
+                        width 90px
+                        height 30px
+                        margin-left 35px
+                        border none
+                        border-radius 4px
+                        background #e95469
+                        color #fff
+                        font-size 14px
+                        cursor pointer
+            .list
+                ul
+                    li
+                        position relative
+                        padding 26px 0 22px 130px
+                        border-bottom 1px solid #f0f0f0
+                        .user
+                            position absolute
+                            top 0
+                            left 0
+                            width 130px
+                            padding-top 30px
+                            text-align center
+                            .img
+                                width 60px
+                                height 60px
+                                border-radius 30px
+                        .other
+                            margin-top 10px
+                            color #8d8d8d
+                            .zan
+                                display inline-block
+                                margin 0 5px 0 50px
+                                padding 0 8px
+                                background #93d6e5
+                                color #fff
+                                line-height 20px
+    .rt
+        float left
+        width 260px
+        .location
+            .tit
+                margin-left 30px
+            .con
+                padding-left 30px
+                border-left 1px solid #f0f0f0
+                .list
+                    li
+                        margin-top 15px
+                        font-size 14px
+                    .on
+                        color #e95469
+                .back
+                    margin-top 18px
+                    text-align right
+                    a
+                        color #8d8d8d
+                        font-size 12px

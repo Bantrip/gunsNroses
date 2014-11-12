@@ -1,0 +1,232 @@
+doctype html
+html(lang='en')
+    head
+        meta(charset='UTF-8')
+        title= '列表页'
+        link(rel='stylesheet', href='../css/list.css')
+    body
+        include ./head.jade
+        div(class='container')
+            div(class='mod block-ope')
+                div(class='location Fix')
+                    dl(class='list')
+                        dt
+                            span.icon-location
+                            你的目的地
+                        dd 曼谷
+                    button(type='button', class='btn btn-edit') 更改目的地
+                div(class='filter')
+                    dl(class='item Fix')
+                        dt 品类
+                        dd(class='on') 全部
+                        dd 收纳
+                        dd 日化
+                        dd 电子数码
+                        dd 医护
+                        dd 服饰
+                        dd 户外
+                    dl(class='item Fix')
+                        dt 适用人群
+                        dd(class='on') 全部
+                        dd 老人
+                        dd 儿童
+                        dd 男士
+                        dd 女士
+                    p(class='other')
+                        label(class='seller')
+                            input(type='checkbox')
+                            自营商品
+            div(class='mod block-list')
+                ul(class='list Fix')
+                    li
+                        span(class='icon-zan')
+                        a(href='detail.html', class='top')
+                            img(class='img', src='../images/list/7.jpg')
+                            span(class='price-bg')
+                            span(class='price') ￥30
+                        div(class='info')
+                            a(class='name', href='detail.html') 旅行必备游泳防水手机袋
+                            p(class='location')
+                                span(class='icon-location')
+                                泰国-曼谷
+                            p(class='des') “非常好，在机场取还的，很方便。”
+                    li
+                        span(class='icon-zan')
+                        a(href='', class='top')
+                            img(class='img', src='../images/list/1.jpg')
+                            span(class='price-bg')
+                            span(class='price') ￥30
+                        div(class='info')
+                            a(class='name', href='') 泰国专用移动WIFI
+                            p(class='location')
+                                span(class='icon-location')
+                                泰国-曼谷
+                            p(class='des') “非常好，在机场取还的，很方便。”
+                    li
+                        span(class='icon-zan')
+                        a(href='', class='top')
+                            img(class='img', src='../images/list/2.jpg')
+                            span(class='price-bg')
+                            span(class='price') ￥30
+                        div(class='info')
+                            a(class='name', href='') 男士旅行吸油纸套装
+                            p(class='location')
+                                span(class='icon-location')
+                                泰国-曼谷
+                            p(class='des') “感谢卖家送的小样，哈哈，宝贝使用过后才来评价的，洁面皂洗完很香很干净，有了它 老公都不想在买洗面奶了，物美价廉，唯一的缺憾就是量好少”
+                    li
+                        span(class='icon-zan')
+                        a(href='', class='top')
+                            img(class='img', src='../images/list/3.jpg')
+                            span(class='price-bg')
+                            span(class='price') ￥30
+                        div(class='info')
+                            a(class='name', href='') 儿童驱蚊喷雾
+                            p(class='location')
+                                span(class='icon-location')
+                                泰国-曼谷
+                            p(class='des') “蚊子特别多 用了这个很舒服 舒缓了很多 效果不错 给宝贝用很放心呢 超赞 价格也实惠”
+                    li
+                        span(class='icon-zan')
+                        a(href='', class='top')
+                            img(class='img', src='../images/list/4.jpg')
+                            span(class='price-bg')
+                            span(class='price') ￥30
+                        div(class='info')
+                            a(class='name', href='') 旅行装压缩毛巾
+                            p(class='location')
+                                span(class='icon-location')
+                                泰国-曼谷
+                            p(class='des') “户外好伴侣，非常不错。很实用”
+                    li
+                        span(class='icon-zan')
+                        a(href='', class='top')
+                            img(class='img', src='../images/list/5.jpg')
+                            span(class='price-bg')
+                            span(class='price') ￥30
+                        div(class='info')
+                            a(class='name', href='') 防菌马桶一次性坐垫
+                            p(class='location')
+                                span(class='icon-location')
+                                泰国-曼谷
+                            p(class='des') “非常好，在机场取还的，很方便。”
+                    li
+                        span(class='icon-zan')
+                        a(href='', class='top')
+                            img(class='img', src='../images/list/6.jpg')
+                            span(class='price-bg')
+                            span(class='price') ￥30
+                        div(class='info')
+                            a(class='name', href='') 游泳防水耳塞
+                            p(class='location')
+                                span(class='icon-location')
+                                泰国-曼谷
+                            p(class='des') “非常好，在机场取还的，很方便。”
+                    li
+                        span(class='icon-zan')
+                        a(href='', class='top')
+                            img(class='img', src='../images/list/8.jpg')
+                            span(class='price-bg')
+                            span(class='price') ￥30
+                        div(class='info')
+                            a(class='name', href='') 男女款防紫外线超薄运动衣
+                            p(class='location')
+                                span(class='icon-location')
+                                泰国-曼谷
+                            p(class='des') “非常好，在机场取还的，很方便。”
+                    li
+                        span(class='icon-zan')
+                        a(href='', class='top')
+                            img(class='img', src='../images/list/9.jpg')
+                            span(class='price-bg')
+                            span(class='price') ￥30
+                        div(class='info')
+                            a(class='name', href='') 防晒防紫外线水乳霜
+                            p(class='location')
+                                span(class='icon-location')
+                                泰国-曼谷
+                            p(class='des') “非常好，在机场取还的，很方便。”
+                    li
+                        span(class='icon-zan')
+                        a(href='', class='top')
+                            img(class='img', src='../images/list/10.jpg')
+                            span(class='price-bg')
+                            span(class='price') ￥30
+                        div(class='info')
+                            a(class='name', href='') 全球适用万能转化插头
+                            p(class='location')
+                                span(class='icon-location')
+                                泰国-曼谷
+                            p(class='des') “非常好，在机场取还的，很方便。”
+                    li
+                        span(class='icon-zan')
+                        a(href='', class='top')
+                            img(class='img', src='../images/list/11.jpg')
+                            span(class='price-bg')
+                            span(class='price') ￥30
+                        div(class='info')
+                            a(class='name', href='') 大容量旅行洗漱包
+                            p(class='location')
+                                span(class='icon-location')
+                                泰国-曼谷
+                            p(class='des') “非常好，在机场取还的，很方便。”
+                    li
+                        span(class='icon-zan')
+                        a(href='', class='top')
+                            img(class='img', src='../images/list/12.jpg')
+                            span(class='price-bg')
+                            span(class='price') ￥30
+                        div(class='info')
+                            a(class='name', href='') 五彩缤纷行李牌
+                            p(class='location')
+                                span(class='icon-location')
+                                泰国-曼谷
+                            p(class='des') “非常好，在机场取还的，很方便。”
+                    li
+                        span(class='icon-zan')
+                        a(href='', class='top')
+                            img(class='img', src='../images/list/13.jpg')
+                            span(class='price-bg')
+                            span(class='price') ￥30
+                        div(class='info')
+                            a(class='name', href='') 旅行必备药盒
+                            p(class='location')
+                                span(class='icon-location')
+                                泰国-曼谷
+                            p(class='des') “非常好，在机场取还的，很方便。”
+                    li
+                        span(class='icon-zan')
+                        a(href='', class='top')
+                            img(class='img', src='../images/list/14.jpg')
+                            span(class='price-bg')
+                            span(class='price') ￥30
+                        div(class='info')
+                            a(class='name', href='') 多功能旅行运动腰包
+                            p(class='location')
+                                span(class='icon-location')
+                                泰国-曼谷
+                            p(class='des') “非常好，在机场取还的，很方便。”
+                    li
+                        span(class='icon-zan')
+                        a(href='', class='top')
+                            img(class='img', src='../images/list/15.jpg')
+                            span(class='price-bg')
+                            span(class='price') ￥30
+                        div(class='info')
+                            a(class='name', href='') 多功能旅行证件包
+                            p(class='location')
+                                span(class='icon-location')
+                                泰国-曼谷
+                            p(class='des') “非常好，在机场取还的，很方便。”
+                    li
+                        span(class='icon-zan')
+                        a(href='', class='top')
+                            img(class='img', src='../images/list/16.jpg')
+                            span(class='price-bg')
+                            span(class='price') ￥30
+                        div(class='info')
+                            a(class='name', href='') 儿童旅行必备尿壶
+                            p(class='location')
+                                span(class='icon-location')
+                                泰国-曼谷
+                            p(class='des') “非常好，在机场取还的，很方便。”

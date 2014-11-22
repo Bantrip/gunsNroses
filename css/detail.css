@@ -168,29 +168,36 @@ body {
 .info-main .lf .img-box .big .arrow {
   position: absolute;
 }
-.info-main .lf .img-box .big .cont li {
+.info-main .lf .img-box .big .cont {
+  display: block;
   height: 420px;
   overflow: hidden;
 }
-.info-main .lf .img-box .big .cont li img {
+.info-main .lf .img-box .big .cont img {
   width: 670px;
   margin-top: -100px;
 }
 .info-main .lf .img-box .small {
   margin-top: 17px;
 }
+.info-main .lf .img-box .small ul {
+  height: 70px;
+}
 .info-main .lf .img-box .small li {
   float: left;
+  width: 70px;
   height: 70px;
   margin-right: 13px;
   border: 1px solid #f0f0f0;
+  cursor: pointer;
 }
 .info-main .lf .img-box .small li img {
   width: 70px;
   height: 70px;
 }
-.info-main .lf .img-box .small li.on {
-  margin-top: -1px;
+.info-main .lf .img-box .small li.on,
+.info-main .lf .img-box .small li:hover {
+  margin: -1px 12px -1px -1px;
   border: 2px solid #e95469;
 }
 .info-main .rt {

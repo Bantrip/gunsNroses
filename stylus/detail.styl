@@ -29,24 +29,28 @@ body
                 .arrow
                     position absolute
                 .cont
-                    li
-                        height 420px
-                        overflow hidden
-                        img
-                            width 670px
-                            margin-top -100px
+                    display block
+                    height 420px
+                    overflow hidden
+                    img
+                        width 670px
+                        margin-top -100px
             .small
                 margin-top 17px
+                ul
+                    height 70px
                 li
                     float left
+                    width 70px
                     height 70px
                     margin-right 13px
                     border 1px solid #f0f0f0
+                    cursor pointer
                     img
                         width 70px
                         height 70px
-                    &.on
-                        margin-top -1px
+                    &.on, &:hover
+                        margin -1px 12px -1px -1px
                         border 2px solid #e95469
     .rt
         float left

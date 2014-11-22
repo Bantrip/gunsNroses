@@ -1,4 +1,15 @@
 var $ = require('jquery'),
+
+	initImg = function() {
+		var img = $('.J_main-img');
+
+		$('.J_trigger-img').on('click', 'li', function() {
+			var self = $(this);
+
+			self.addClass('on').siblings('li').removeClass('on');
+			img.attr('src', self.attr('data-url'));
+		});
+	},
 	
 	updateAmount = function(value) {
 		var input = $('.J_amount-input'),
@@ -33,6 +44,8 @@ var $ = require('jquery'),
 		});
 	};
 
+
 exports.init = function() {
+	initImg();
 	initAmount();
 };

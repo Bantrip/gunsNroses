@@ -7,7 +7,8 @@
     "assert": "*"
   },
   "dependencies": {
-    "jquery": "^1.9.1"
+    "jquery": "^1.9.1",
+    "image-lazyload": "~0.2.0"
   },
   "repository": "git://github.com/oliviaong/bantrip.git",
   "keywords": [

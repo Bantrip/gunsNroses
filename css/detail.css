@@ -273,6 +273,7 @@ body {
   margin-top: 23px;
 }
 .info-main .rt .ope .btn {
+  display: block;
   width: 170px;
   height: 40px;
   border: none;

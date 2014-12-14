@@ -2,11 +2,12 @@
 function mix(a,b){for(var k in b){a[k]=b[k];}return a;}
 var _0 = "bantrip@0.1.0/js/detail.js";
 var _1 = "bantrip@0.1.0/js/index.js";
-var _2 = "jquery@^1.9.1";
-var entries = [_0,_1];
+var _2 = "bantrip@0.1.0/js/list.js";
+var _3 = "jquery@^1.9.1";
+var entries = [_0,_1,_2];
 var asyncDepsToMix = {};
 var globalMap = asyncDepsToMix;
-define(_0, [_2], function(require, exports, module, __filename, __dirname) {
+define(_0, [_3], function(require, exports, module, __filename, __dirname) {
 var $ = require('jquery'),
 
 	initImg = function() {

@@ -8,7 +8,9 @@
   },
   "dependencies": {
     "jquery": "^1.9.1",
-    "image-lazyload": "~0.2.0"
+    "image-lazyload": "~0.2.0",
+    "tpl": "~0.2.1",
+    "mbox": "^1.0.1"
   },
   "repository": {
     "type": "git",
@@ -27,7 +29,8 @@
   },
   "entries": [
     "./js/detail.js",
-    "./js/index.js"
+    "./js/index.js",
+    "./js/list.js"
   ],
   "homepage": "http://github.com/oliviaong/bantrip",
   "scripts": {
@@ -35,7 +38,7 @@
   },
   "readme": "bantrip\n",
   "readmeFilename": "README.md",
-  "gitHead": "9891a3dcb837d8b35138be8206a19de54e6587c9",
+  "gitHead": "b043df57bf8b65e010ad0fcf500d4d04a52a9ed4",
   "_id": "bantrip@0.1.0",
   "css": []
 }

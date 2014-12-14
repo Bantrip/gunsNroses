@@ -1,0 +1,10 @@
+{
+	"code": 200,
+	"result": {
+		"list": [{
+			"cityName": "aa",
+			"cityId": 1,
+			"amount": 111
+		}]
+	}
+}

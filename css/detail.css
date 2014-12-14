@@ -282,6 +282,8 @@ body {
   color: #fff;
   font-size: 14px;
   cursor: pointer;
+  text-align: center;
+  line-height: 40px;
 }
 .info-main .rt .ope .btn .icon-cart {
   display: inline-block;
@@ -427,6 +429,8 @@ body {
   background: #e95469;
   color: #fff;
   font-size: 14px;
+  text-align: center;
+  line-height: 30px;
   cursor: pointer;
 }
 .info-detail .lf .comment .list ul li {

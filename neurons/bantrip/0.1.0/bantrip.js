@@ -2,11 +2,12 @@
 function mix(a,b){for(var k in b){a[k]=b[k];}return a;}
 var _0 = "bantrip@0.1.0/js/detail.js";
 var _1 = "bantrip@0.1.0/js/index.js";
-var _2 = "bantrip@0.1.0/index.js";
-var entries = [_0,_1];
+var _2 = "bantrip@0.1.0/js/list.js";
+var _3 = "bantrip@0.1.0/index.js";
+var entries = [_0,_1,_2];
 var asyncDepsToMix = {};
 var globalMap = asyncDepsToMix;
-define(_2, [], function(require, exports, module, __filename, __dirname) {
+define(_3, [], function(require, exports, module, __filename, __dirname) {
 
 // Opt in to strict mode of JavaScript, [ref](http://is.gd/3Bg9QR)
 // Use this statement, you can stay away from several frequent mistakes 

@@ -24,7 +24,7 @@ gulp.task('tpl2mod', function() {
         prefix:"module.exports=",
         suffix:";"
     }))
-    .pipe(extReplace('.html.js'))
+    .pipe(extReplace('.js'))
     .pipe(gulp.dest('js'));
 });
 

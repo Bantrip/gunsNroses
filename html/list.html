@@ -20,7 +20,7 @@
             <dt><span class="icon-location"></span>你的目的地</dt>
             <dd>曼谷</dd>
           </dl>
-          <button type="button" class="btn btn-edit">更改目的地</button>
+          <button type="button" class="btn btn-edit J_btn-edit">更改目的地</button>
         </div>
         <div class="filter">
           <dl class="item Fix">
@@ -149,5 +149,21 @@
         </ul>
       </div>
     </div>
+    <script src="../neurons/neuron.js"></script>
+    <script src="../neurons/config.js"></script>
+    <script>
+      neuron.config({
+          path: '../neurons'
+      })
+    </script>
+    <script>
+      facade({
+          entry: 'bantrip/js/list.js',
+          data: {
+              pageType: 'app',
+              token: ''
+          }
+      })
+    </script>
   </body>
 </html>

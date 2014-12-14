@@ -1,7 +1,7 @@
 (function(){
 function mix(a,b){for(var k in b){a[k]=b[k];}return a;}
 var _0 = "json@~1.0.0";
-var _1 = "util@1.0.4/index.js";
+var _1 = "util@1.0.5/index.js";
 var asyncDepsToMix = {};
 var globalMap = asyncDepsToMix;
 define(_1, [_0], function(require, exports, module, __filename, __dirname) {
@@ -202,7 +202,7 @@ function formatValue(ctx, value, recurseTimes) {
     var keys = Object.keys(value);
     var visibleKeys = arrayToHash(keys);
 
-    if (ctx.showHidden) {
+    if (ctx.showHidden && Object.getOwnPropertyNames) {
         keys = Object.getOwnPropertyNames(value);
     }
 

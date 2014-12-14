@@ -19,10 +19,7 @@ var $ = require('jquery'),
 	initEditLoc = function() {
 		$('.J_btn-edit').on('click', function() {
 			new Mbox({
-				winCls: 'pop-box pop-minicoupon-dl',
-                size: {
-                    x: 100
-                },
+				winCls: 'pop-box pop-edit-loc',
                 content: Mbox.dialog('更改目的地', Tpl.compile(template)())
             }).open();
 		});

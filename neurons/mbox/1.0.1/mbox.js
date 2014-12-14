@@ -38,7 +38,7 @@ overlay.css({
     "background-color": "#000",
     "z-index": 99,
     "zoom": 1,
-    "opacity": 0.2,
+    "opacity": 0.5,
     "position": IE6 ? "absolute" : "fixed"
 });
 

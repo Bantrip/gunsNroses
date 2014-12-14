@@ -1,3 +1,9 @@
+.pop-edit-loc .pop-main {
+  width: 700px;
+}
+.pop-edit-loc .pop-main .section-search {
+  padding: 10px;
+}
 .section-search .tit {
   font-size: 18px;
 }
@@ -138,7 +144,7 @@
 }
 .section-search .select .btn-view {
   display: block;
-  width: 220px;
+  width: 100%;
   height: 45px;
   margin: 20px auto 0;
   border-radius: 3px;
